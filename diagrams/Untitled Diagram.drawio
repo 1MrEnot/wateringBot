@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T10:07:40.337Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="hoYKuMmGS1Lj0xIqOaxl" version="16.6.1" type="github"><diagram id="oV1GM_KYjO7_leMFCYR5" name="Page-1">3VhLc5swEP41HNtBEhhzjA1pLn1Mc2hzJKAYphi5Qo4fv74CSUYSeEIydhz3otF+7K7Q7ufdNQ6aL7dfaLLKv5IMlw50s62DIgfC6cTnawPsBOBNkQAWtMgEBDrgvthjCboSXRcZrg1FRkjJipUJpqSqcMoMLKGUbEy1J1Kap66SBe4B92lS9tFfRcZyeS0YdPgdLha5OhlMQvFkmShleZM6TzKy0SAUO2hOCWFit9zOcdnETsVF2N0eeXp4MYorNsbg72P1tKcElfun+s6N7tg39+cn6eU5Kdfywk7kOjegWWdijZ0IOFPu221Fr13FPlIrV5i1q8x2zXYqgPzaq2a7oiTFNc/GbJMXDN+vkrSBN5w1HMvZsuQS4NvHJP2zoGRdZd/XrCwqLHH5ppgyvD0aAnAILCckJkvM6I6rSAOkWCXJGEpx02UWIInlWlYnEkskmRYHz128+UaG/BXhh8Ph92XI7UhP23Wm9lwnbPf+/5gccPHsoMHshLdaduJ2RVrABRJoOdI14ZGcHjJ4qxQsAsylWoPDAbeGufjJBurElgDXlPrL/zC9furtAOIqu2kaDJfSMqnrIjXj1YYKN4e4XMLbgv1u9p99KT1IvWYfbTW1aKeEil9FM2rEB/1ZZ9ZKyk68Ks56nc3KB78OWdMUv9wfWEIXmL1UyPr51fLnD6RPYRSXCSuezdcdyqk84Qcp+EU6+oQmfRC0aCGuKa30Fmk58jyLh4HlSMSh56il2OHab2ddcHLWdQyCr6JQR1c4nq8n5B0cyTt0Ud65Fu/AG3mHfIt3dl07M++m56t2gU4fd2y5Cwyygverd+gq6l1g8c59a71zpxetd+HwgBWrUeYw5fjadOtrQ7B/fJCCPfP5gAkUkxbo+fRaHLVrbIza3cAX96YufTrXpr2PPHt54YixG77n7KWq6DnaoNEDtZ74QhsEehHrWuKHaYPhJcuRZ0/vdhUZXY4mliN7jjtzOQIDf8dPRDxgEi8YSzzXIF7wbsQLr6EP+v6J5q+Je675i4vdFz6h3n0mRfE/</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-23T10:08:37.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="HhJ4CJ7yrLRg5bCm_m-t" version="16.6.1" type="github">
+  <diagram id="oV1GM_KYjO7_leMFCYR5" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qbnfzro3lzfsH0DHtN0R-1" value="Сбор данных" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="90" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lt70kJrUT7F3aSRLqDk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="qbnfzro3lzfsH0DHtN0R-2" target="5Lt70kJrUT7F3aSRLqDk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qbnfzro3lzfsH0DHtN0R-2" value="Хранилище данных" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="190" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qbnfzro3lzfsH0DHtN0R-3" value="Прогнозирование параметров почвы" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="290" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qbnfzro3lzfsH0DHtN0R-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qbnfzro3lzfsH0DHtN0R-1" target="qbnfzro3lzfsH0DHtN0R-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbnfzro3lzfsH0DHtN0R-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qbnfzro3lzfsH0DHtN0R-2" target="qbnfzro3lzfsH0DHtN0R-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="310" as="sourcePoint" />
+            <mxPoint x="350" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbnfzro3lzfsH0DHtN0R-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="qbnfzro3lzfsH0DHtN0R-3" target="qbnfzro3lzfsH0DHtN0R-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="300" as="sourcePoint" />
+            <mxPoint x="408" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbnfzro3lzfsH0DHtN0R-9" value="Определение времени следующего полива" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qbnfzro3lzfsH0DHtN0R-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="qbnfzro3lzfsH0DHtN0R-2" target="qbnfzro3lzfsH0DHtN0R-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="270" as="sourcePoint" />
+            <mxPoint x="460" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbnfzro3lzfsH0DHtN0R-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="qbnfzro3lzfsH0DHtN0R-9" target="qbnfzro3lzfsH0DHtN0R-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="310" as="sourcePoint" />
+            <mxPoint x="600" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Lt70kJrUT7F3aSRLqDk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="5Lt70kJrUT7F3aSRLqDk-1" target="qbnfzro3lzfsH0DHtN0R-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Lt70kJrUT7F3aSRLqDk-1" value="Автоматический полив*" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
